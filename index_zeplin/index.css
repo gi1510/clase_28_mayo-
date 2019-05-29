@@ -1,17 +1,8 @@
 body{
     margin:0;
 }
-
-main{
-    display: flex;
-    justify-content: space-evenly;
-
-}
-
-.fila-1{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-
-
+.box1{
+    width: 1598px;
+    height: 900px;
+    background-color: #d0d0d0;
 }
