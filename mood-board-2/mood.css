@@ -4,19 +4,94 @@ body{
 main{
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly;
-}
+    }
 
 .fila-1{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-
+    border-left:20px solid white;
+    border-right: 10px solid white;
+    border-top: 19px solid white;
+    border-bottom: 20px solid white; 
+}
+}
+.img-1{
+    width:240px;
+    height:360px;
+    border-bottom:10px solid white; 
+}
+.pic-1{
+    width:100%;
+    height:auto;
 }
 
+.img-2{
+    width:240px;
+    height:480px;
+    border-bottom:10px solid white;
+    border-top: 10px solid white;
+}
+.pic-2{
+    width:100%;
+    height:auto;
+}
+
+.img-3{
+    width:240px;
+    height:280px;
+
+}
+.pic-3{
+    width:100%;
+    height:auto;
+    border-top: 10px solid white;
+}
+
+
+.img-5{
+    width:320px;
+    height:360px;
+    border-bottom:10px solid white;
+}
+.pic-5{
+    width:100%;
+    height:auto;
+}
+.img-6{
+    width:320px;
+    height:280px;
+    border-bottom:10px solid white;
+    border-top: 10px solid white;
+}
+.pic-6{
+    width:100%;
+    height:auto;
+}
+
+
+.img-7{
+    width:320px;
+    height:480px;
+    border-top: 10px solid white;
+}
+.pic-7{
+    width:100%;
+    height:auto;
+}
+
+
+
+
+
+
+
+
 .img-4{
-    position: relative;
+    position: absolute;
+    top:214px;
+    left:100px;
     
 }
 .fila-2{
@@ -24,36 +99,52 @@ main{
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    border-left:10px solid white;
+    border-right: 10 \px solid white;
+    border-top: 19 solid white;
+    border-bottom:20px solid white; 
 }
 .fila-3{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    border-left:10px solid white;
+    border-right:23px solid white;
+    border-top: 23px solid white;
+    border-bottom: 22px solid white; 
 }
 
 .box-1{
     background-color: #2f3133;
     width: 155px;
     height: 215px;
+    border-bottom:10px solid white;
 }
 .box-2{
     background-color: #0361ad;
     width: 155px;
     height: 215px;
+    border-top: 10px solid white;
+    border-bottom: 10px solid white;
 }
 .box-3{
     background-color: #9fb5c1;
     width: 155px;
     height: 215px;
+    border-top: 10px solid white;
+    border-bottom: 10px solid white;
 }
 .box-4{
     background-color: #f8c694;
     width: 155px;
     height: 215px;
+    border-top: 10px solid white;
+    border-bottom: 10px solid white;
 }
 .box-5{
     background-color: #822d55;
     width: 155px;
     height: 215px;
+    border-top: 10px solid white;
 }
